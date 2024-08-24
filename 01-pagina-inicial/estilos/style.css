@@ -42,7 +42,7 @@ main {
     position: relative;
     height: 85vh;
     width: 100vw;
-    background-color: rgba(77, 212, 161, 0.842);
+    background-color: rgba(93, 212, 77, 0.842);
 }
 
 section#conteudo {
@@ -55,7 +55,7 @@ section#conteudo {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate( -50%, -60%);
+    transform: translate( -50%, -61%);
 }
 
 div#anime {
