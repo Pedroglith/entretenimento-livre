@@ -47,7 +47,7 @@ main {
 
 section#conteudo {
     background-color: var(--cor-01);
-    height: 556px;
+    height: 558px;
     width: 320px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.486);
@@ -69,4 +69,18 @@ div#anime {
     top: 20%;
     left: 20%;
     transform: translate( -50%, -52%);
+}
+
+div#anime:hover{
+    box-shadow: -3px -3px 3px 0px  rgb(224, 99, 42);
+    transition: 0.3s;
+
+    height: 155px;
+    width: 105px;
+
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    transform: translate( -50%, -52%);
+
 }
