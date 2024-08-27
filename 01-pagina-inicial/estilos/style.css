@@ -58,29 +58,31 @@ section#conteudo {
     transform: translate( -50%, -60%);
 }
 
-div#anime {
-    background-size: cover;
-    height: 150px;
-    width: 100px;
-
-    background-image: url(../midia/Jujutsu-Kaisen-poster-4K-Vertical-Wallpaper.jpg);
-
-    position: absolute;
-    top: 20%;
-    left: 20%;
-    transform: translate( -50%, -52%);
+section#conteudo p {
+    color: rgb(132, 0, 255);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
 }
 
-div#anime:hover{
-    box-shadow: -3px -3px 3px 0px  rgb(224, 99, 42);
-    transition: 0.3s;
+section#conteudo img {
+    width: 150px;
+    margin: 20px 45px 45px 45px;
+    border-radius: 15px;
+}
 
-    height: 155px;
-    width: 105px;
+section#conteudo a#anime {
+    display: block;
+    text-align: center;
+    
+}
 
-    position: absolute;
-    top: 22%;
-    left: 22%;
-    transform: translate( -50%, -52%);
+section#conteudo a#serie {
+    display: block;
+    text-align: center;
+}
 
+section#conteudo a#filme {
+    display: block;
+    text-align: center;
 }
