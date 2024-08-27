@@ -15,8 +15,10 @@
 
 
 
-body{
+body, html {
     background-color: var(--cor-03);
+    height: 100vh;
+    width: 100vw;
 }
 
 header {
@@ -46,6 +48,7 @@ main {
 }
 
 section#conteudo {
+    text-align: center;
     background-color: var(--cor-01);
     height: 558px;
     width: 320px;
@@ -58,8 +61,10 @@ section#conteudo {
     transform: translate( -50%, -60%);
 }
 
+
 section#conteudo p {
     color: rgb(132, 0, 255);
+    margin: 20px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
@@ -67,22 +72,21 @@ section#conteudo p {
 
 section#conteudo img {
     width: 150px;
-    margin: 20px 45px 45px 45px;
+    margin: 0px;
     border-radius: 15px;
 }
 
 section#conteudo a#anime {
-    display: block;
     text-align: center;
     
 }
 
 section#conteudo a#serie {
-    display: block;
+    
     text-align: center;
 }
 
 section#conteudo a#filme {
-    display: block;
+    
     text-align: center;
 }
