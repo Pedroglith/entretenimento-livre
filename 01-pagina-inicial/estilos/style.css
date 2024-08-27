@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 :root{
-    --cor-01: #0a0908;
-    --cor-02: #22333b;
-    --cor-03: #eae0d5;
-    --cor-04: #c6ac8f;
-    --cor-05: #5e503f;
+    --cor-01: #020100;
+    --cor-02: #FDFFFC;
+    --cor-03: #F1D302;
+    --cor-04: #A833B9;
+    --cor-05: #2F004F;
 }
 
 *{
@@ -18,16 +18,16 @@ body, html {
     height: 100vh;
     width: 100vw;
 
-    background-color: blueviolet;
+    background-color: var(--cor-05)
 }
 
 
 
 header {
     text-align: center;
-    background-color: var(--cor-02);
-    color: rgb(255, 255, 255);
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.507);
+    background-image: linear-gradient(to top, var(--cor-05), var(--cor-04));
+    color: var(--cor-02);
+    
     
 }
 
@@ -47,7 +47,7 @@ header > p {
 main {
     position: relative;
     
-    background-color: blueviolet;
+    background-color: var(--cor-04);
 }
 
 section#conteudo {
@@ -55,7 +55,7 @@ section#conteudo {
     background-color: var(--cor-01);
     height: 540px;
     width: 320px;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.486);
     
     position: absolute;
@@ -66,7 +66,7 @@ section#conteudo {
 
 
 section#conteudo p {
-    color: rgb(132, 0, 255);
+    color: var(--cor-04);
     margin: 20px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
