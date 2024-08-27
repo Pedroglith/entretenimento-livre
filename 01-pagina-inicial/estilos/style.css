@@ -13,18 +13,20 @@
     padding: 0px;
 }
 
-
-
 body, html {
     background-color: var(--cor-03);
     height: 100vh;
     width: 100vw;
+
+    background-color: blueviolet;
 }
+
+
 
 header {
     text-align: center;
     background-color: var(--cor-02);
-    color: white;
+    color: rgb(255, 255, 255);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.507);
     
 }
@@ -42,15 +44,14 @@ header > p {
 
 main {
     position: relative;
-    height: 85vh;
-    width: 100vw;
-    background-color: rgba(132, 22, 196, 0.842);
+    
+    background-color: blueviolet;
 }
 
 section#conteudo {
     text-align: center;
     background-color: var(--cor-01);
-    height: 558px;
+    height: 540px;
     width: 320px;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.486);
@@ -58,7 +59,7 @@ section#conteudo {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate( -50%, -60%);
+    transform: translate( -50%, 0%);
 }
 
 
