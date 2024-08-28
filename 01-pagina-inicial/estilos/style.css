@@ -79,17 +79,17 @@ section#conteudo img {
     border-radius: 15px;
 }
 
-section#conteudo a#anime {
-    text-align: center;
+section#conteudo img#anime {
+    box-shadow: 1px 1px 5px 1px #EF233C;
     
 }
 
-section#conteudo a#serie {
+section#conteudo img#serie {
+    box-shadow: 1px 1px 5px 1px #FFAD69;
     
-    text-align: center;
 }
 
-section#conteudo a#filme {
+section#conteudo img#filme {
+    box-shadow: 1px 1px 5px 1px #84ACCE;
     
-    text-align: center;
 }
