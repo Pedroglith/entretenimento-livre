@@ -1,9 +1,7 @@
 :root{
-    --cor-01: #6c2519;
-    --cor-02: #531c13;
-    --cor-03: #3a130c;
-    --cor-04: #200906;
-    --cor-05: #070000;
+    --cor-00: black;
+    --cor-01: #6ebf5b;
+
 }
 
 * {
@@ -14,7 +12,7 @@
 body, html {
     height: 100vh;
     width: 100vw;
-    background-color: var(--cor-05);
+    background-color: var(--cor-00);
 }
 
 header {
@@ -25,7 +23,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: var(--cor-03);
+    color: var(--cor-00);
     
 }
 

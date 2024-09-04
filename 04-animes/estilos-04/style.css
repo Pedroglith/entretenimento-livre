@@ -54,3 +54,26 @@ main h1 {
     margin-top: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+ul {
+    padding: 10px;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+li{
+    margin: 30px;
+}
+
+ul a {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+ul img {
+    width: 100px;
+    border-radius: 10px;
+}
