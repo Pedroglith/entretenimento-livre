@@ -74,7 +74,13 @@ ul a {
 }
 
 ul img {
-    width: 50px;
-    height: 100px;
+    width: 100px;
+    
     border-radius: 10px;
+}
+
+section {
+    background-color: whitesmoke;
+    width: 100vw;
+    
 }
